@@ -2,7 +2,7 @@
 @import "variables.css";
 
 /* Components */
-@import "components/ststus-bar.css";
+@import "components/status-bar.css";
 
 /* screen */
 @import "screen/login.css";
