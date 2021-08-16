@@ -7,11 +7,11 @@
   margin-bottom: 5px;
 }
 .friends-screen {
-  padding: 0px var(--horizontal-space);
+  padding: 1px var(--horizontal-space);
 }
 .friends-screen__channel {
   margin-top: 25px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
   padding-top: 15px;
 }
 .friends-screen__channel-header {
@@ -19,4 +19,17 @@
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
+}
+.user-component__text {
+  top: 5px;
+  position: relative;
+}
+
+.user-component__title {
+  position: absolute;
+  bottom: 30px;
+}
+
+.user-component__title1 {
+  font-size: 20px;
 }
