@@ -7,11 +7,14 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/more.css";
+@import "components/icon-row.css";
 
 /* screen */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more1.css";
 
 body {
   color: #2e363e;
